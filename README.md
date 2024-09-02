@@ -1,2 +1,0 @@
-# webchat
-python webchat app
