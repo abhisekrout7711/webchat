@@ -9,7 +9,7 @@ def main():
     If the binding is successful, the server is set to listen for incoming connections.
     """
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
+
     try:
         server.bind((HOST, PORT))
     except Exception as e:
